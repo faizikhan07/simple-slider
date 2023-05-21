@@ -18,13 +18,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+ 
 }
 
 .title {
   color: #0029ff;
   text-align: center;
   font-size: 3rem;
-
   position: relative;
   padding-bottom: 2rem;
 }
@@ -42,12 +42,11 @@ body {
 .conatiner {
   max-width: 900px;
   margin: 0 auto;
-  /* margin-top: 2rem; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  /* column-gap: 10rem; */
   margin-top: 2rem;
+  position: relative;
 
 }
 .info{
@@ -56,26 +55,22 @@ body {
   font-style: italic;
   font-weight: 500;
   position: relative;
-  
 }
-.text{
-  
- 
-}
+
 .img-people{
   border-radius:20px;
   width: 340px;
   
 }
 .image::before {
-  background-color: #0029ff;
  
   position: absolute;
   content: '';
   width: 311px;
   height: 286px;
- top: 40%;
-  left:21rem;
+  top:24%;
+  bottom: 20%;
+  left:10%;
   border-radius:20px;
   z-index: -100000;
 }
@@ -83,5 +78,35 @@ body {
   font-size: 40px;
   color: #90e0ef;
   position: absolute;
-  top: 32%;
+  top: 1%;
+}
+button{
+  border: none;
+  cursor: pointer;
+  
+}
+
+.btn{
+  position: absolute;
+}
+.btn-right{
+  background-color: none;
+
+  right: 10%;
+  top: 50%;
+  background-color: #0029ff;
+  border-radius: 50%;
+  color: wheat;
+  
+  transform: translate(50% , -50%);
+  padding: 20px;
+}
+.btn-left{
+  background-color: #0029ff;
+  border-radius: 50%;
+  color: wheat;
+  padding: 20px;
+  top: 50%;
+  left: 10%;
+  
 }
