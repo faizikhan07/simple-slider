@@ -3,6 +3,10 @@
 beautidtul image slider made with javascript.
 A great projcet to practice javascript Dom (document objecet model). The purpose of this project is to practice showing slides to users.
 
+
+
+
+![](./images/Shot%200004.png)
 # proceses
 There are several features that the user can discover by clicking
 - We should create a function that allows the user to navigate to the next or previous slide.  
@@ -18,4 +22,4 @@ There are several features that the user can discover by clicking
 - JavaScript DOM 
 
 
-
+`
