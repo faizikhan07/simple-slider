@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color:  #E2F1FB;
+  background-color:  #fff
 }
 
 .title {
@@ -55,7 +55,7 @@ body {
 }
 .info {
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.6;
   font-weight: 400;
   font-style: normal;
   position: relative;
@@ -67,7 +67,7 @@ body {
 
 .img-people {
   border-radius: 50%;
-  width: 190px;
+  width: 140px;
 }
 .image::before {
   position: absolute;
@@ -95,25 +95,24 @@ button {
 .btn-right {
   top: 50%;
   border-radius: 50%;
-  background-color: #CCD9E3;
-  color:white;
-  left: 80%;
-  font-size: 30px;
+  background-color: transparent;
+  color:#4F8FE2;
+  left: 75%;
+  font-size: 40px;
   transform: translate(50%, -50%);
   padding: 10px 15px;
 }
 .btn-left {
   background-color: none;
   border-radius: 50%;
-  background-color: #CCD9E3;
-  color:white;
-  font-size: 30px;
-
+  background-color: transparent;
+  color:#4F8FE2;
+  font-size: 40px;
+ 
   padding: 10px 15px;
   top: 50%;
-  left: 13%;
+  left: 15%;
   transform: translate(50%, -50%);
-
 }
 .title-name {
   font-size: 20px;
@@ -137,7 +136,7 @@ button {
 .section{
   position: absolute;
   width: 100%;
-  transition: transform 1s ease;
+  transition: all 0.9s ;
 
  
 }
