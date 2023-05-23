@@ -20,6 +20,3 @@ There are several features that the user can discover by clicking
 - Flexbox
 - Desktop-first
 - JavaScript DOM 
-
-
-`
