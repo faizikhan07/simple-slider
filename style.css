@@ -21,6 +21,11 @@ body {
   background-color:  #fff
 }
 
+span {
+  border: none;
+  cursor: pointer;
+}
+
 .title {
   color: #0029ff;
   text-align: center;
@@ -81,38 +86,26 @@ body {
   z-index: -100000;
 }
 
-button {
-  border: none;
-  cursor: pointer;
-}
-
 .btn {
   position: absolute;
   border: none;
   background-color: none;
-  
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  padding: 10px 15px;
+  color:#4F8FE2;
+  background-color: transparent;
+  font-size: 40px;
 }
 .btn-right {
   top: 50%;
-  border-radius: 50%;
-  background-color: transparent;
-  color:#4F8FE2;
   left: 75%;
-  font-size: 40px;
-  transform: translate(50%, -50%);
-  padding: 10px 15px;
+
 }
 .btn-left {
-  background-color: none;
-  border-radius: 50%;
-  background-color: transparent;
-  color:#4F8FE2;
-  font-size: 40px;
- 
-  padding: 10px 15px;
   top: 50%;
   left: 15%;
-  transform: translate(50%, -50%);
+ 
 }
 .title-name {
   font-size: 20px;
@@ -136,12 +129,8 @@ button {
 .section{
   position: absolute;
   width: 100%;
-  transition: all 0.9s ;
 
- 
 }
-
-
 .contaier-section{
   display: flex;
   align-items: center;
